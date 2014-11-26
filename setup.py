@@ -49,7 +49,7 @@ setup(
     zip_safe=False,
     url='https://github.com/tobie/ua-parser',
     include_package_data=True,
-    package_data={'ua_parser': ['regexes.yaml', 'regexes.json']},
+    package_data={'ua_parser': ['/regexes.yaml', '/regexes.json']},
 #   install_requires=['pyyaml'],
     cmdclass={
         'develop': develop,
